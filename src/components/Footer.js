@@ -8,7 +8,7 @@ const yearTxt = currentYear === 2022 ? "2022" : "2022 - "+currentYear
             <div class="row">
       <div class="col-md-12 text-center p-5 text-white">
          
-          <h1  class="headline text-warning pt-5">DAILY TASK</h1>
+          <h1  class="headline text-warning pt-5">To-do App</h1>
           
          
            

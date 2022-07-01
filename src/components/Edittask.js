@@ -4,7 +4,7 @@ const Edittask = () => {
     const  {id}=useParams();
     const [task,setTask]=useState({})
     useEffect(()=>{
-        fetch(`http://localhost:5000/task/${id}`,{
+        fetch(`https://calm-depths-62817.herokuapp.com/task/${id}`,{
             method:"GET",
             headers:{
                 "content-type":"application/json"
@@ -20,7 +20,7 @@ const Edittask = () => {
         const details=e.target.dailytask.value;
        
         const task={taskname,duration,details}
-      fetch(`https://pure-castle-81331.herokuapp.com/task/${id}`,{
+      fetch(`https://calm-depths-62817.herokuapp.com/task/${id}`,{
         method:"PUT",
         headers:{
             "content-type":"application/json"

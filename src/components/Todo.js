@@ -5,7 +5,7 @@ import Tasklist from './Tasklist';
 const Todo = () => {
     const [tasks,setTask]=useState([])
     useEffect(()=>{
-        fetch("http://localhost:5000/task",{
+        fetch("https://calm-depths-62817.herokuapp.com/task",{
             method:"GET",
             headers:{
                 "content-type":"application/json"
